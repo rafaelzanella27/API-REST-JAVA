@@ -19,7 +19,7 @@ private PersonService personService;
 
     @Autowired
     public PersonController(PersonService personService) {
-        this.personService = personService;
+         this.personService = personService;
     }
 
     @PostMapping
